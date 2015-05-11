@@ -201,7 +201,7 @@ public class HomePageFragment extends Fragment implements OnPageChangeListener, 
 						handler.sendEmptyMessage(MESSAGE_FLIP);
 					}
 				}, 2000, 2000);
-			} catch (JSONException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
